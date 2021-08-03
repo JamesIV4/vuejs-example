@@ -1,0 +1,4 @@
+include:
+  - project: 'WebMD/Consumer/templates'
+    ref: master
+    file: '.gitlab-ci-component.yml'
