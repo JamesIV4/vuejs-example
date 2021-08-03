@@ -165,8 +165,8 @@ export default {
 		wireNavbtnMetrics: function wireNavBtnMetrics() {
 			const navBtns = document.querySelectorAll('a.nav-btn');
 
-			navBtns.forEach((itemProp) => {
-				const item = itemProp;
+			navBtns.forEach((_item) => {
+				const item = _item;
 				this.metricsCount += 1;
 				item.dataset.metricsLink = this.metricsCount;
 			});
