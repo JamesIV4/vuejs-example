@@ -183,7 +183,7 @@ export default {
 				}
 
 				// Set to sticky if config calls for it
-				if (this.navConfig.sticky && this.navConfig.sticky === true) {
+				if (this.navConfig.sticky) {
 					styleOverrides.innerHTML += '#conspon-dynamic-nav {position: fixed !important;}';
 				}
 			}
