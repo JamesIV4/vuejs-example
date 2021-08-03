@@ -1,5 +1,5 @@
 # vuejs-example
-This is a component I created at WebMD.
+A dynamic navigation component I created at WebMD.
 
 ## Overview
 - Dynamic navigation component with dropdown menus
